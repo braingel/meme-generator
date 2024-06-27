@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+  display: unset;
+}
+
+a {
+  display: unset;
+}
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer; /* use cursor pointer for all button it is good for user interfacez*/
+}
+button:hover {
+  display: unset;
+}
+button:focus,
+button:focus-visible {
+  display: unset;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    display: unset;
+  }
+  a:hover {
+    display: unset;
+  }
+  button {
+    display: unset;
+  }
+} */
